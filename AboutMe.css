@@ -1,0 +1,74 @@
+body{
+    font-family: Arial;
+    background-color: rgb(163, 189, 163);
+}
+
+.header {
+    text-align: center;
+}
+
+.mainText {
+    text-align: left;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+p{
+    text-align: left;
+    font-size: larger;
+}
+
+h2{
+    text-align: left;
+}
+
+.line {
+    border-bottom: 2px solid #000; 
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+
+.projects {
+    text-align: left;
+}
+
+
+.LinkedIn { 
+    margin-right: 15px;
+    display: inline-block; 
+    position: relative;
+    color: black;
+}
+
+.LinkedIn a {
+    color: black;
+    text-decoration: none;
+}
+
+.LinkedIn::before { 
+    content: ""; 
+    position: absolute; 
+    left: 0; bottom: 0; 
+    width: 0; height: 2px; 
+    background-color: black; 
+    transition: width 0.25s ease-out; 
+} 
+
+.LinkedIn:hover::before { 
+    width: 100%; 
+} 
+
+.projectContainer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(163, 189, 163);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
